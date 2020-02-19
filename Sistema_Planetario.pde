@@ -70,7 +70,7 @@ void setup(){
   strokeWeight(0);
   noFill();
   
-  //ficherogif = new GifMaker( this, "sistema_solar.gif");
+  //ficherogif = new GifMaker( this, "sistema_planetario.gif");
   //ficherogif.setRepeat(0);
   
   img_sol = loadImage("texturas/sol.png");
