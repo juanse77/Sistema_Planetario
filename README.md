@@ -9,7 +9,7 @@
 	<li>La tecla 'bajar' para bajar el ángulo de la cámara.</li>
 </ul>
 
-<p>También se permite pausar la animación. Para ello se utiliza la tecla 'espacio'</p>
+<p>También se permite pausar la animación. Para ello se utiliza la tecla 'espacio'.</p>
 
 <p>La aplicación se ha realizado en Processing y en ella se ha hecho un uso intensivo de los métodos pushMatrix, popMatrix, rotate y translate.</p>
 

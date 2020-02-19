@@ -291,7 +291,7 @@ void dibujaGanimedes(){
   pushMatrix();
   rotateY(-angulo_ganimedes);
   rotateX(-rotacionX);
-  text("Ganimedes", 0, radio_ganimedes + 10);
+  text("Ganímedes", 0, radio_ganimedes + 10);
   popMatrix();
  
   popMatrix();
@@ -322,7 +322,7 @@ void dibujaJupiter(){
   
   pushMatrix();
   rotateX(-rotacionX);
-  text("Jupiter", 0, radio_jupiter + 20);
+  text("Júpiter", 0, radio_jupiter + 20);
   popMatrix();
   
   popMatrix();  
@@ -343,7 +343,7 @@ void imprime_leyenda(){
   textAlign(LEFT, TOP);
   
   text("Para subir la perspectiva pulse \'Tecla Arriba\'", 30, 30);
-  text("Para subir la perspectiva pulse \'Tecla Abajo\'", 30, 60);
+  text("Para bajar la perspectiva pulse \'Tecla Abajo\'", 30, 60);
   text("Para pausar o reiniciar pulse \'Tecla Espacio\'", 30, 90);
   
   textFont(createFont("Arial", 18));
