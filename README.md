@@ -11,8 +11,10 @@
 
 <p>También se permite pausar la animación. Para ello se utiliza la tecla 'espacio'</p>
 
+<p>La aplicación se ha realizado en Processing y en ella se ha hecho un uso intensivo de los métodos pushMatrix, popMatrix, rotate y translate.</p>
+
 <div align="center">
-	<p><img src="./sistema.gif" alt="Generador 3D" /></p>
+	<p><img src="./sistema_solar.gif" alt="Generador 3D" /></p>
 </div>
 
 <p>Esta aplicación se ha desarrollado como tercera práctica evaluable para la asignatura de "Creando Interfaces de Usuarios" de la mención de Computación del grado de Ingeniería Informática de la Universidad de Las Palmas de Gran Canaria en el curso 2019/20 y en fecha de 19/2/2020 por el alumno Juan Sebastián Ramírez Artiles.</p>

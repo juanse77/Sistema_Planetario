@@ -1,6 +1,6 @@
-import gifAnimation.*;
+//import gifAnimation.*;
 
-GifMaker ficherogif;
+//GifMaker ficherogif;
 
 PImage img_sol;
 PImage img_mercurio;
@@ -70,8 +70,8 @@ void setup(){
   strokeWeight(0);
   noFill();
   
-  ficherogif = new GifMaker( this, "pong.gif");
-  ficherogif.setRepeat(0);
+  //ficherogif = new GifMaker( this, "sistema_solar.gif");
+  //ficherogif.setRepeat(0);
   
   img_sol = loadImage("texturas/sol.png");
   img_mercurio = loadImage("texturas/mercurio.jpg");
@@ -387,7 +387,7 @@ void draw(){
   
   dibujaSistemaSolar();
 
-  ficherogif.addFrame();
+  //ficherogif.addFrame();
 }
 
 void keyPressed(){
@@ -409,9 +409,9 @@ void keyPressed(){
     }
   }
   
-  if(key == 'r'){
-    ficherogif.finish();
-  }
+  //if(key == 'r'){
+  //  ficherogif.finish();
+  //}
 }
 
 void keyReleased(){
