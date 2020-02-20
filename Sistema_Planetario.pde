@@ -31,8 +31,8 @@ void setup(){
   tierra = new Planeta("Tierra", "tierra.jpg", random(0, TWO_PI), PI/1340, 300, 25, PI/128);
   luna = new Planeta("Luna", "luna.jpg", random(0, TWO_PI), PI/128, 45, 8, PI/128);
   marte = new Planeta("Marte", "marte.jpg", random(0, TWO_PI), PI/1580, 400, 25, PI/128);
-  jupiter = new Planeta("Jupiter", "jupiter.jpg", random(0, TWO_PI), PI/2024, 700, 40, PI/256);
-  ganimedes = new Planeta("Ganimedes", "ganimedes.jpg", random(0, TWO_PI), PI/128, 60, 5, PI/128);
+  jupiter = new Planeta("Júpiter", "jupiter.jpg", random(0, TWO_PI), PI/2024, 700, 40, PI/256);
+  ganimedes = new Planeta("Ganímedes", "ganimedes.jpg", random(0, TWO_PI), PI/128, 60, 5, PI/128);
   
   noStroke();
 }
